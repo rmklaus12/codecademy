@@ -1,0 +1,15 @@
+//define current human age
+const myAge = 49;
+//generate value for first 2 years
+let earlyYears = 2;
+earlyYears *= 10.5; 
+//subtract 2 years 
+let laterYears = myAge - 2;
+//calculate dog years for later years
+laterYears *= 4;
+//combine years for dog years
+myAgeInDogYears = earlyYears + laterYears;
+
+myName = 'Robin'.toLowerCase();
+//Display age in dog years
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
