@@ -1,0 +1,12 @@
+const agreeOrDisagree = (str1, str2) => {
+  if (str1 === str2) {
+    return "You agree!"; 
+  }
+  else if (str1 !== str2) {
+    return "You disagree!";
+  }
+};
+
+
+console.log(agreeOrDisagree("yep", "yep")) 
+// Should print 'You agree!'
